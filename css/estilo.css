@@ -1,0 +1,145 @@
+			/* Cabeçalho */
+			header{
+
+				font-size: 2;
+				color: white;
+				text-align: center;
+				padding: 5px;
+				background-image: url("imagens/Re 1.jpg");
+				border: 5px transparent white;
+			}
+			/* Menuzinho */
+			nav{
+				line-height: 20px;
+				background-color: gray;
+				font-family: 'Dosis', sans-serif;
+				color: black;
+				height: 150px; /* altura a 300 */
+				width: 15%; /* largura de 200 */
+				float: left; /* Fica na esquerda */
+				padding: 20px;
+				border-width: 50px;
+				border-radius: 20px;
+				border-color: red;
+				border: 5px solid red;
+				font: bold;
+				float: left;
+			}
+			/* Corpo */
+			body{
+
+				color: white;
+				border-width: 20px;
+				border-radius: 20px;
+				border-color: gray;
+				font-family: 'Dosis', sans-serif;
+			}
+			video{
+				height: 400px;
+				width: 600px;
+				float: center;
+			}
+			h1{
+				color: red;
+				text-align: center;
+				border: 5px solid black;
+			}
+			h2{
+				color: white;
+				text-align: center;
+			}
+			/* Seção */
+			section{
+				width: 60%;
+				float: left;
+				padding:30px;
+				font-family: 'Dosis', sans-serif;
+				background-color: gray;
+				border-width: 50px;
+				border-radius: 20px;
+				border: 10px solid red;
+				position: absolute;
+				right: 150px;
+			}
+			/* Rodapé */
+			footer{
+				background-color: black;
+				color: white;
+				clear: both;
+				text-align: center;
+				padding: 10px;
+				border: 5px solid white;
+				position: absolute;
+				top: 3750px;
+				right: 500px;
+
+			}
+			/* Lista do menuzinho */
+			#menu ul{
+				list-style: none;
+				position: relative;
+				padding: 0px;
+				margin: 0px;
+			}
+			/* Itens da lista do menuzinho */
+			#menu li{
+				background-color: #ccc;
+				padding: 2px;
+				margin:20px;
+			}
+			/* Cor do link */
+			#menu a{
+				color:#000;
+				text-decoration: none;
+			} 
+			/* Decorando um link */
+			#menu a li:hover{
+				background-color: #606060;
+				transition: background 1s; /* demora 1s pra fazer a transição */
+				color:#fff; /* alterar cor do texto */
+			}
+			/* configura a imagem */
+			#cabecalho #icone{
+				position:relative;
+				top:-10px;
+				left:0px;
+			}
+			#imagem{
+				position: relative;
+				border: 8px solid #fff;
+				box-shadow: 0px 0px 10px #999999;	
+			}
+			#imagem img {
+				width: 100%;
+				height: 100%;
+			}
+			#imagem figcaption{
+				opacity: 1;	
+				position: absolute;
+				top:0;
+				background-color: rgba(0,0,100,.2);
+				color: #fff;
+				width: 100%;
+				height:100%;
+				padding-top: 65%;
+				padding-left: 15%;
+				box-sizing: border-box;
+				transition: opacity 2s;
+			}
+			#imagem:hover figcaption{
+				opacity: 1;	
+			}
+			#musica{
+				padding-top: 40px;
+				padding-left: 40px;
+			}
+			#filme{
+				width: 400px;
+				height: 400px;
+			}
+			#tabela td{
+
+			}
+			table {
+				border-color: red;
+			}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/> <!-- Colocar acentos e talz, pt-br -->
+		<title> Resident Evil (Videos) </title> 
+		<link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+		<script 
+			language="javascript" src="script/exemplo.js"> 
+		</script>
+	</head>  <!-- Função do muda foto do java ^ -->
+		<style>
+	html{
+		background-image: url("imagens/background.jpg");
+
+	}
+	</style>
+	<body>
+		<header id="cabecalho"> <!-- Inicial, para o google achar -->
+			<h2> 
+				Resident Evil 
+			</h2>
+			<img id='icone' src='Imagens/Videos.jpg'>
+		</header>
+		<nav id="menu"> <!-- Menuzinho -->
+			<ul>
+				<a href="Resident Evil.html"
+					onMouseOver="mudaFoto('imagens/Re 2.jpg')"
+					onMouseOut="mudaFoto('imagens/Videos.jpg')">
+					<li> Resident Evil </li> <!-- "Pagina" no menuzinho -->
+				</a>
+				<a href="Videos.html"
+					onMouseOver="mudaFoto(imagens/Videos.jpg')"
+					onMouseOut="mudaFoto('imagens/Videos.jpg')">		
+					<li> R.E. - Videos </li>
+				<a href="Dying Light.html"
+					onMouseOver="mudaFoto('imagens/Dying Light.jpg')"
+					onMouseOut="mudaFoto('imagens/Videos.jpg')">
+					<li> Dying Light </li> 
+				</a>
+			</ul>
+		</nav>
+		<section> <!-- Seção, onde fica o texto e videos e etc... -->
+			<div>
+			<h1> Resident Evil 1 </h1>
+			<h4> Cena de introdução do jogo </h4>
+			<video controls="controls">
+			<source src="Videos/Re1 intro.mp4" type="video/mp4"  />
+		</video>
+
+			<h1> Resident Evil 2 </h1>
+			<h4> Cena de introdução do jogo </h4>
+			<video controls="controls">
+			<source src="Videos/Re2 intro.mp4" type="video/mp4"  />
+		</video>
+
+			<h1> Resident Evil 3: Nemesis </h1>
+			<h4> Cena de introdução do jogo</h4>
+			<video controls="controls">
+			<source src="Videos/Re3 intro.mp4" type="video/mp4"  />
+		</video>
+
+			<h1> Resident Evil - Code Veronica </h1>
+			<h4> Cena de introdução do jogo</h4>
+			<video controls="controls">
+			<source src="Videos/Veronica intro.mp4" type="video/mp4"  />
+		</video>
+
+			<h1> Resident Evil 4 </h1>
+			<h4> Cena de introdução do jogo</h4>
+			<video controls="controls">
+			<source src="Videos/Re4 intro.mp4" type="video/mp4"  />
+		</video>
+
+			<h1> Resident Evil 5 </h1>
+			<h4> Cena de introdução do jogo</h4>
+			<video controls="controls">
+			<source src="Videos/Re5 intro.mp4" type="video/mp4"  />
+		</video>
+
+		</section>
+		<footer> <!-- Rodapé -->
+			Copyright : Matheus Badoco and Wagner Junior (version 1.7.3 f)
+		</footer>
+	</body>
+</html>

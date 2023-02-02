@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/> <!-- Colocar acentos e talz, pt-br -->
+		<title> Dying Light </title> 
+		<link rel="stylesheet" type="text/css" href="css/Dying Style.css"/>
+		<script 
+			language="javascript" src="script/exemplo.js"> 
+		</script>
+	</head>  <!-- Função do muda foto do java ^ -->
+	<style>
+	html{
+		background-image: url("sangue.jpg");
+	}
+	</style>
+	<body>
+		<header id="cabecalho"> <!-- Inicial, para o google achar -->
+			<h2> 
+				Dying Light 
+			</h2>
+			<img id='icone' src='imagens/Dying Light.jpg'>
+		</header>
+		<nav id="menu"> <!-- Menuzinho -->
+			<ul>
+				<a href="Resident Evil.html"
+					onMouseOver="mudaFoto('imagens/Re 2.jpg')"
+					onMouseOut="mudaFoto('imagens/Dying Light.jpg')">
+					<li> Resident Evil </li> <!-- "Pagina" no menuzinho -->
+				</a>
+				<a href="Videos.html"
+					onMouseOver="mudaFoto('imagens/Videos.jpg')"
+					onMouseOut="mudaFoto('imagens/Dying Light.jpg')">		
+					<li> R.E. - Videos </li>
+				</a>
+				</li>
+				<a href="Dying Light.html"
+					onMouseOver="mudaFoto('imagens/Dying Light.jpg')"
+					onMouseOut="mudaFoto('imagens/Dying Light.jpg')">
+					<li> Dying Light </li> 
+				</a>
+			</ul>
+		</nav>
+		<section> <!-- Seção, onde fica o texto e videos e etc... -->
+			<h1> Dying Light </h1>
+			<h4> É um jogo do gênero survival horror, em conjunto com um vasto e perigoso mundo aberto. Durante o dia, os jogadores percorrem um ambiente urbano expansivo invadido por um surto vicioso, procurando pelo mundo suprimentos e elaborando armas para se defender contra a crescente população infectada. À noite, o caçador torna-se caçado, os infectados tornam-se agressivos e mais perigosos. Mais assustador são os predadores que aparecem somente após o anoitecer. Os jogadores devem usar tudo em seu poder para sobreviver até a primeira luz da manhã.
+				 </h4>	
+		<video controls="controls">
+			<source src="Dying Light Trailer.mp4" type="video/mp4"  />
+		</video>
+				 <h4>Uma das características marcantes do jogo é a forma como a personagem se movimentará no ambiente, claramente o seu estilo foi inspirado no parkour, possibilitando que sejam feitos saltos entre edifícios, escalar muros e até usar como apoio os corpos de zombies para escapar.
+				 </h4>
+				 <table border="1" id="tabela">
+				 <h1> Easter Eggs </h1>
+				 <tr> <!-- nova linha -->
+				 	<th> Referencia </th>
+				 	<th> Easter Egg </th>
+				 </tr>
+				 <tr> 
+				 	<td> Super Mario </td>
+				 	<td> Fase secreta com temas do super mario bros em primeira pessoa </td>
+				 </tr>
+				 				 <tr> 
+				 	<td> Plants vs Zombies </td>
+				 	<td> Fase secreta em modo tower defense </td>
+				 </tr>
+				 <tr> 
+				 	<td> Excalibur </td>
+				 	<td> É possivel encontrar a lendária excalibur em uma ilha </td>
+				 <tr> 
+				 </tr>
+				</table>
+			
+				</section>
+		<footer> <!-- Rodapé -->
+			Copyright : Matheus Badoco and Wagner Junior (version 1.7.3 f)
+		</footer>
+	</body>
+</html>
